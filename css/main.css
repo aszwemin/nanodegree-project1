@@ -1,0 +1,61 @@
+/* The whole document */
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #555555;
+}
+
+.row {
+	margin-bottom: 15px;
+}
+
+.tab-pane {
+	margin-top: 10px;
+}
+
+/* Header */
+@media screen and (max-device-width: 799px) {
+	h1 {
+		font-size: 20px;
+	}
+
+	h3 {
+		font-size: 14px;
+	}
+}
+
+@media screen and (min-device-width: 799px) {
+	.header {
+		border-bottom: 3px solid #bcbbbb;
+	}
+}
+
+.header img {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+/* Resume tab */
+.res-content {
+	height: 300px;
+	overflow: auto;
+}
+
+@media screen and (max-device-width: 799px) {
+	#res-nav {
+		display: none;
+	}
+
+	.res-content {
+		height: auto;
+	}
+}
+
+/* Modals */
+.modal p {
+	padding-top: 20px;
+}
+
+/* Linkedin icon */
+.IN-widget {
+	padding-top: 18px;
+}
